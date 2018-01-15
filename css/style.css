@@ -1,0 +1,93 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #fff
+	color: #333;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+	float: left;
+}
+
+a{
+	color: #d38484;
+	text-decoration: none;
+	
+}
+
+a:hover{
+	color: #efdea0; /*При наведении курсора меняется цвет*/
+}
+
+a, a:hover{
+	-webkit-transition: all.6s ease; /*медленное изменение цвета ссылок для Safari*/
+	-moz-transition: all.6s ease; /*медленное изменение цвета ссылок для mozilla*/
+	-o-transition: all.6s ease; /*медленное изменение цвета ссылок для opera*/
+	-ms-transition: all.6s ease; /*медленное изменение цвета ссылок для EE*/
+	transition: all.6s ease; /*медленное изменение цвета ссылок для остальные*/
+}
+
+.clear{
+	clear: both;
+}
+
+/*header*/
+
+header{
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #fafafa;
+	border-bottom: 2px solid silver;
+}
+
+header #logo{
+	width: 40%;
+	float: left;
+
+	color: #939393;
+	font-size: 2em;
+	font-family: Times New Romen, Arial, sans-serif;
+}
+
+header #logo span{
+	color: #e46565;
+}
+
+header #menuHead{
+	width: 30%;
+	float: left;
+}
+
+header #regAuth{
+	width: 30%;
+	float: right;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
